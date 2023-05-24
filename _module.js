@@ -3372,7 +3372,7 @@ function create_fragment$2(ctx) {
 			attr(header, "class", "section-container svelte-1grguq5");
 			attr(div2, "class", "component");
 			attr(div3, "class", "section");
-			attr(div3, "id", "section-421908d0-065a-4821-ba05-1179ba1fe9d1");
+			attr(div3, "id", "section-7ae8ffbe-fd70-4a28-b89c-2d63a9ba2936");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div3, anchor);
@@ -4060,10 +4060,13 @@ function create_fragment$5(ctx) {
 				},
 				site_nav: [
 					{
-						"link": { "url": "/project-gold", "label": "Home" }
+						"link": { "url": "/projectgold", "label": "Home" }
 					},
 					{
-						"link": { "url": "/about", "label": "About" }
+						"link": {
+							"url": "/projectgold/about",
+							"label": "About"
+						}
 					},
 					{
 						"link": { "url": "/contact", "label": "" }
