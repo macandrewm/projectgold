@@ -4060,11 +4060,11 @@ function create_fragment$5(ctx) {
 				},
 				site_nav: [
 					{
-						"link": { "url": "/projectgold", "label": "Home" }
+						"link": { "url": "/project-gold", "label": "Home" }
 					},
 					{
 						"link": {
-							"url": "/projectgold/about",
+							"url": "/project-gold/about",
 							"label": "About"
 						}
 					},
