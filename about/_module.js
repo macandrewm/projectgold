@@ -3643,7 +3643,10 @@ function create_fragment$4(ctx) {
 						"link": { "url": "/project-gold", "label": "Home" }
 					},
 					{
-						"link": { "url": "/about", "label": "About" }
+						"link": {
+							"url": "/project-gold/about",
+							"label": "About"
+						}
 					},
 					{
 						"link": { "url": "/contact", "label": "" }
