@@ -3640,7 +3640,7 @@ function create_if_block$2(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "link svelte-1pib7xd");
+			attr(a, "class", "link svelte-1buvvj3");
 			attr(a, "href", a_href_value = "mailto:" + /*email*/ ctx[1]);
 		},
 		m(target, anchor) {
@@ -3699,8 +3699,8 @@ function create_each_block$1(ctx) {
 		h() {
 			attr(a, "href", a_href_value = /*link*/ ctx[3].url);
 			attr(a, "aria-label", a_aria_label_value = /*link*/ ctx[3].label);
-			attr(a, "class", "svelte-1pib7xd");
-			attr(li, "class", "svelte-1pib7xd");
+			attr(a, "class", "svelte-1buvvj3");
+			attr(li, "class", "svelte-1buvvj3");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -3811,10 +3811,10 @@ function create_fragment$4(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h2, "class", "heading svelte-1pib7xd");
-			attr(ul, "class", "svelte-1pib7xd");
-			attr(div0, "class", "card svelte-1pib7xd");
-			attr(section, "class", "section-container svelte-1pib7xd");
+			attr(h2, "class", "heading svelte-1buvvj3");
+			attr(ul, "class", "svelte-1buvvj3");
+			attr(div0, "class", "card svelte-1buvvj3");
+			attr(section, "class", "section-container svelte-1buvvj3");
 			attr(div1, "class", "component");
 			attr(div2, "class", "section");
 			attr(div2, "id", "section-4be26452-0b45-4d43-8d23-4b0bb1cac070");
