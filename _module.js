@@ -3581,8 +3581,8 @@ function create_fragment$3(ctx) {
 			this.h();
 		},
 		h() {
-			if (!src_url_equal(img.src, img_src_value = "https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/images/pg_animated_2color.gif?t=2023-05-25T05%3A34%3A53.085Z")) attr(img, "src", img_src_value);
-			attr(img, "alt", "funny GIF");
+			if (!src_url_equal(img.src, img_src_value = "https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/images/pg_animated_5color-noglow.gif?t=2023-05-25T06%3A01%3A42.411Z")) attr(img, "src", img_src_value);
+			attr(img, "alt", "PG Logo");
 			attr(img, "width", "100%");
 			attr(img, "class", "svelte-zl6lzi");
 			attr(div0, "class", "component");
