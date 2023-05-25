@@ -1004,15 +1004,15 @@ function create_fragment(ctx) {
 		c() {
 			meta = element("meta");
 			style = element("style");
-			t = text("@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#f0efef;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: gray;\n  }\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #f0efef;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
+			t = text("@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#f0efef;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: #e4c88c;\n  }\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #f0efef;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
 			this.h();
 		},
 		l(nodes) {
-			const head_nodes = head_selector('svelte-1pa4nkf', document.head);
+			const head_nodes = head_selector('svelte-njsfs4', document.head);
 			meta = claim_element(head_nodes, "META", { name: true, content: true });
 			style = claim_element(head_nodes, "STYLE", {});
 			var style_nodes = children(style);
-			t = claim_text(style_nodes, "@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#f0efef;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: gray;\n  }\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #f0efef;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
+			t = claim_text(style_nodes, "@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#f0efef;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: #e4c88c;\n  }\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #f0efef;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
 			style_nodes.forEach(detach);
 			head_nodes.forEach(detach);
 			this.h();
@@ -3613,179 +3613,6 @@ class Component$3 extends SvelteComponent {
 
 /* generated by Svelte v3.58.0 */
 
-function create_fragment$4(ctx) {
-	let div2;
-	let div1;
-	let div0;
-	let svg;
-	let defs;
-	let style;
-	let t;
-	let g3;
-	let g2;
-	let g0;
-	let path0;
-	let path1;
-	let path2;
-	let path3;
-	let path4;
-	let g1;
-	let path5;
-	let path6;
-
-	return {
-		c() {
-			div2 = element("div");
-			div1 = element("div");
-			div0 = element("div");
-			svg = svg_element("svg");
-			defs = svg_element("defs");
-			style = svg_element("style");
-			t = text(".cls-1 {\n        fill: #f0efef;\n      }\n    ");
-			g3 = svg_element("g");
-			g2 = svg_element("g");
-			g0 = svg_element("g");
-			path0 = svg_element("path");
-			path1 = svg_element("path");
-			path2 = svg_element("path");
-			path3 = svg_element("path");
-			path4 = svg_element("path");
-			g1 = svg_element("g");
-			path5 = svg_element("path");
-			path6 = svg_element("path");
-			this.h();
-		},
-		l(nodes) {
-			div2 = claim_element(nodes, "DIV", { class: true, id: true });
-			var div2_nodes = children(div2);
-			div1 = claim_element(div2_nodes, "DIV", { class: true });
-			var div1_nodes = children(div1);
-			div0 = claim_element(div1_nodes, "DIV", { class: true });
-			var div0_nodes = children(div0);
-
-			svg = claim_svg_element(div0_nodes, "svg", {
-				id: true,
-				"data-name": true,
-				xmlns: true,
-				viewBox: true,
-				class: true
-			});
-
-			var svg_nodes = children(svg);
-			defs = claim_svg_element(svg_nodes, "defs", {});
-			var defs_nodes = children(defs);
-			style = claim_svg_element(defs_nodes, "style", {});
-			var style_nodes = children(style);
-			t = claim_text(style_nodes, ".cls-1 {\n        fill: #f0efef;\n      }\n    ");
-			style_nodes.forEach(detach);
-			defs_nodes.forEach(detach);
-			g3 = claim_svg_element(svg_nodes, "g", { id: true, "data-name": true });
-			var g3_nodes = children(g3);
-			g2 = claim_svg_element(g3_nodes, "g", {});
-			var g2_nodes = children(g2);
-			g0 = claim_svg_element(g2_nodes, "g", {});
-			var g0_nodes = children(g0);
-			path0 = claim_svg_element(g0_nodes, "path", { class: true, d: true });
-			children(path0).forEach(detach);
-			path1 = claim_svg_element(g0_nodes, "path", { class: true, d: true });
-			children(path1).forEach(detach);
-			path2 = claim_svg_element(g0_nodes, "path", { class: true, d: true });
-			children(path2).forEach(detach);
-			path3 = claim_svg_element(g0_nodes, "path", { class: true, d: true });
-			children(path3).forEach(detach);
-			path4 = claim_svg_element(g0_nodes, "path", { class: true, d: true });
-			children(path4).forEach(detach);
-			g0_nodes.forEach(detach);
-			g1 = claim_svg_element(g2_nodes, "g", {});
-			var g1_nodes = children(g1);
-			path5 = claim_svg_element(g1_nodes, "path", { class: true, d: true });
-			children(path5).forEach(detach);
-			path6 = claim_svg_element(g1_nodes, "path", { class: true, d: true });
-			children(path6).forEach(detach);
-			g1_nodes.forEach(detach);
-			g2_nodes.forEach(detach);
-			g3_nodes.forEach(detach);
-			svg_nodes.forEach(detach);
-			div0_nodes.forEach(detach);
-			div1_nodes.forEach(detach);
-			div2_nodes.forEach(detach);
-			this.h();
-		},
-		h() {
-			attr(path0, "class", "cls-1");
-			attr(path0, "d", "m376.36,383.8c-3.23-9.75-7.71-18.16-13.44-25.21-1.63-1.99-3.36-3.87-5.15-5.59.15-.05.29-.07.44-.12,2.87-.88,5.54-2.29,7.97-4.18,4.18-3.31,7.39-8.41,9.65-15.29,2.29-6.88,3.4-15.27,3.4-25.19v-121.32c0-1.65.05-3.06.12-4.18.1-1.14.19-2.21.27-3.26.1-1.05.22-2.36.39-3.91h-25.33c.88,3.99,1.43,7.17,1.7,9.53.27,2.33.39,5.25.39,8.75v126.67c0,8.34-.78,14.44-2.33,18.26-1.34,3.23-3.45,5.42-6.39,6.56-1.82-1.17-3.7-2.21-5.64-3.18-7.93-3.91-16.58-5.86-25.99-5.86-4.04,0-7.97.32-11.82.95-1.56,1.24-3.14,2.41-4.77,3.5-8.83,5.93-17.97,9.51-27.47,10.67-4.55,3.4-8.75,7.27-12.62,11.65-7.29,8.27-13.1,17.85-17.36,28.71-4.25,10.89-6.39,22.42-6.39,34.62,0,1.75.05,3.5.15,5.23h-54.48v16.44h37.37v35.79c0,4.35-2.48,7.88-7.46,10.58-4.96,2.7-11.43,4.06-19.45,4.06-14.98,0-27.69-4.72-38.12-14.1-8.36-7.32-14.9-16.68-19.6-28.08-4.69-11.4-7.05-23.29-7.05-35.67,0-5.4.34-10.79,1.05-16.19.71-5.4,1.6-10.43,2.75-15.15,1.12-4.69,2.48-8.92,4.04-12.67,1.58-3.74,3.31-6.66,5.23-8.73,3.48-4.01,9.48-7.25,18.02-9.68,8.53-2.43,18.04-3.65,28.47-3.65,3.31,0,6.44.17,9.41.51,2.97.34,5.96.97,9.02,1.82,3.04.88,6.35,2.04,9.92,3.53,3.57,1.48,7.71,3.36,12.4,5.62v-21.93c-4.18-1.56-7.93-2.82-11.23-3.79-3.31-.95-6.39-1.73-9.26-2.33-1.99-.41-3.96-.75-5.88-1.02l-7.97-10.45-48.31-61.9c3.84-1.05,7.22-2.09,10.19-3.14,2.97-1.05,5.66-2.24,8.1-3.53,2.43-1.31,4.74-2.75,6.93-4.3,2.16-1.58,4.3-3.4,6.39-5.49,5.06-4.89,8.97-10.28,11.74-16.19,2.8-5.93,4.18-11.94,4.18-18.02,0-7.15-1.77-13.81-5.35-19.99-3.57-6.18-8.41-11.01-14.49-14.49-3.67-2.09-7.59-3.62-11.77-4.57-4.16-.97-9.14-1.43-14.88-1.43-1.39,0-3.14.02-5.23.12-2.09.1-4.25.22-6.52.39-9.92.53-17.19.92-21.81,1.17-4.62.27-7.37.41-8.24.41h-9.14l1.05,8.87c.36,2.43.66,4.47.92,6.13.27,1.65.39,2.92.39,3.79v141.82c0,1.75-.07,3.31-.27,4.69l-.51,4.18c-.17,1.41-.44,2.97-.78,4.72h24.8c-.17-1.58-.29-2.89-.39-3.91-.1-1.05-.17-2.24-.27-3.55-.07-1.29-.12-2.92-.12-4.81v-73.13l43.88,55.89c1.22,1.56,2.38,3.09,3.53,4.57,1.12,1.48,2.43,3.26,3.91,5.35,1.39,1.97,3.04,4.35,4.96,7.25-6.76,1.12-13.23,3.11-19.45,5.93-10.38,4.69-19.33,11.09-26.91,19.18-7.56,8.1-13.54,17.68-17.89,28.74-4.35,11.06-6.52,22.93-6.52,35.64,0,10.97,1.77,21.64,5.35,32,3.57,10.36,8.66,19.72,15.27,28.08,7.32,9.04,15.8,15.92,25.48,20.64,9.65,4.69,20.23,7.05,31.73,7.05,8.87,0,16.85-1.24,23.9-3.67,7.05-2.43,13.88-6.27,20.5-11.48,2.43-2.09,4.4-3.94,5.88-5.49,1.48-1.56,2.6-3.31,3.38-5.23.8-1.92,1.31-4.23,1.58-6.93.27-2.67.39-6.13.39-10.31v-20.28c.71,3.06,1.58,6.08,2.6,9.04,3.67,10.62,8.63,19.99,14.9,28.08,6.27,8.1,13.57,14.49,21.93,19.21,8.36,4.69,17.24,7.05,26.65,7.05,12.01,0,23.51-3.72,34.48-11.11,10.96-7.39,20.28-17.72,27.94-30.95,4.52-7.83,7.97-16.63,10.31-26.38,2.36-9.75,3.53-19.94,3.53-30.56,0-11.48-1.6-22.1-4.81-31.85ZM119.89,253.87v-66.32c5.74.17,10.67.44,14.76.78s7.61.83,10.58,1.43c2.97.61,5.52,1.39,7.71,2.36,2.16.95,4.21,2.04,6.13,3.26,4.01,2.43,7.27,6.32,9.8,11.62s3.79,10.75,3.79,16.31-1.14,10.36-3.4,14.9c-2.26,4.52-5.3,7.73-9.14,9.65-2.09,1.22-4.21,2.19-6.39,2.87-2.16.71-4.79,1.26-7.83,1.7-3.06.44-6.61.78-10.72,1.05-4.08.27-9.17.39-15.27.39Zm238.46,207.87c-2.36,9.34-5.54,16.24-9.55,20.76-3.48,4.18-8.12,7.42-13.96,9.68-5.84,2.26-12.23,3.38-19.21,3.38-9.92,0-18.89-2.29-26.89-6.9-8.02-4.62-14.54-11.28-19.6-19.99-4.01-6.78-7.05-14.42-9.14-22.85-2.09-8.44-3.14-17.02-3.14-25.72,0-4.52.27-9.14.78-13.83.53-4.72,1.24-9.24,2.09-13.59.88-4.35,1.92-8.44,3.14-12.28,1.22-3.82,2.53-7.05,3.91-9.65,2.97-5.06,7.63-9.14,13.98-12.28,6.35-3.14,13.62-4.72,21.81-4.72,19.16,0,33.82,6.71,44.01,20.13,10.19,13.4,15.29,32.55,15.29,57.45,0,10.97-1.19,21.1-3.53,30.42Z");
-			attr(path1, "class", "cls-1");
-			attr(path1, "d", "m336.78,220.98c-3.21-9.75-7.71-18.16-13.44-25.21-5.74-7.05-12.57-12.55-20.5-16.46-7.93-3.91-16.58-5.86-25.99-5.86-10.97,0-21.32,2.38-31.07,7.17-9.75,4.79-18.28,11.31-25.6,19.6-7.32,8.27-13.1,17.85-17.36,28.71-4.28,10.89-6.42,22.42-6.42,34.62s1.85,23.32,5.49,33.94,8.63,19.98,14.88,28.08c6.27,8.1,13.59,14.49,21.95,19.21,8.34,4.69,17.24,7.05,26.62,7.05,2.36,0,4.69-.15,7-.44,9.51-1.17,18.65-4.74,27.47-10.67,1.63-1.09,3.21-2.26,4.77-3.5,8.95-7.03,16.68-16.19,23.19-27.45,4.52-7.83,7.95-16.63,10.31-26.38,2.36-9.75,3.53-19.94,3.53-30.56,0-11.48-1.6-22.1-4.84-31.85Zm-18.02,77.95c-2.36,9.31-5.52,16.24-9.53,20.76-3.48,4.18-8.14,7.42-13.98,9.68-5.84,2.26-12.23,3.38-19.18,3.38-9.92,0-18.89-2.31-26.91-6.9-8-4.62-14.54-11.28-19.57-19.98-4.01-6.78-7.05-14.42-9.14-22.85-2.09-8.44-3.14-17.02-3.14-25.72,0-4.52.27-9.14.78-13.83.53-4.72,1.22-9.24,2.09-13.59.88-4.35,1.92-8.44,3.14-12.28,1.22-3.84,2.53-7.05,3.91-9.65,2.97-5.06,7.61-9.14,13.98-12.28,6.35-3.14,13.62-4.72,21.81-4.72,19.13,0,33.82,6.71,44.01,20.13,10.19,13.4,15.27,32.55,15.27,57.45,0,10.97-1.17,21.1-3.53,30.42Z");
-			attr(path2, "class", "cls-1");
-			attr(path2, "d", "m73.13,181.28c-3.84-2.09-7.83-3.62-12.01-4.57-4.18-.97-9.31-1.43-15.41-1.43-2.26,0-4.96.05-8.1.12-3.14.1-6.44.22-9.92.39-2.97.17-5.45.32-7.44.39-2.02.1-3.62.15-4.84.15-1.92,0-4.01-.05-6.27-.15-2.26-.07-5.3-.29-9.14-.63l.27,6.78c.17,1.92.32,3.6.39,5.08.1,1.48.12,2.58.12,3.28v142.33c0,.88-.02,2.09-.12,3.67-.07,1.56-.22,3.55-.39,6.01l-.27,7.05h24.82c-.71-4.89-1.14-8.41-1.31-10.58-.17-2.19-.27-4.23-.27-6.15v-55.63c6.61-.71,12.45-1.48,17.51-2.36,5.06-.85,9.53-1.9,13.44-3.14,3.91-1.22,7.44-2.7,10.58-4.42,3.14-1.75,6.27-3.84,9.41-6.27,6.27-5.06,11.28-11.31,15.03-18.79,3.74-7.49,5.62-15.15,5.62-23s-1.92-15.61-5.76-22.32c-3.82-6.71-9.14-11.99-15.92-15.8Zm-2.75,60.98c-1.29,4.62-2.99,8.41-5.08,11.38-1.92,2.43-4.5,4.21-7.71,5.35-3.23,1.12-7.61,1.7-13.2,1.7-4.16,0-11.23-.27-21.15-.8v-71.55c5.23.34,9.68.71,13.32,1.05,3.67.34,6.83.78,9.53,1.31,2.7.51,5.06,1.22,7.05,2.09,2.02.85,3.96,1.9,5.88,3.11,4.18,2.63,7.44,6.86,9.8,12.67,2.33,5.84,3.53,12.42,3.53,19.74,0,4.69-.66,9.34-1.97,13.96Z");
-			attr(path3, "class", "cls-1");
-			attr(path3, "d", "m581.63,345.68c3.84-1.48,8.27-3.36,13.32-5.62v-13.83c-8,2.97-14.32,5.01-18.94,6.13-4.62,1.14-9.26,1.7-13.96,1.7-8.73,0-16.85-1.99-24.43-6.01-7.56-4.01-14.15-9.53-19.72-16.58-5.57-7.05-9.97-15.37-13.18-24.94-3.23-9.58-4.84-19.84-4.84-30.83,0-9.38,1-18.7,2.99-27.94,2.02-9.24,4.77-16.63,8.24-22.2,2.77-4.89,6.95-8.36,12.52-10.45,5.59-2.09,13.32-3.14,23.24-3.14,4.55,0,8.63.15,12.28.39,3.67.27,7.25.8,10.72,1.58s6.95,1.82,10.43,3.14c3.5,1.31,7.42,2.92,11.77,4.84l-.27-24.82c-.88.17-1.77.27-2.75.27h-1.94c-.71,0-1.36-.05-1.97-.15-.61-.07-1.34-.22-2.21-.39s-2.09-.44-3.67-.78c-1.56-.34-3.65-.88-6.25-1.56-5.57-1.41-10.79-2.09-15.68-2.09-10.79,0-21.03,2.43-30.68,7.29-9.68,4.89-18.23,11.43-25.72,19.6-7.49,8.19-13.42,17.68-17.77,28.47-2.84,7.07-4.77,14.39-5.74,21.93v-.24c-5.57.51-10.79,1.05-15.66,1.56-9.24,1.05-15.85,1.58-19.86,1.58h-24.02v-62.7l24.02,1.31c3.31.17,6.32.34,9.02.53,2.7.17,5.35.39,7.95.63,2.63.27,5.37.58,8.24.92,2.87.34,6.3.78,10.31,1.31v-19.06h-83.56l.51,6.78c.34,2.97.61,5.35.78,7.17s.27,3.18.27,4.06v139.72c0,.34-.1,1.34-.27,2.99-.07.63-.15,1.34-.24,2.09h-12.16c.53,5.03.88,9.04,1.05,12.01.17,2.97.27,6.18.27,9.65v130.58l-1.31,14.37-.27,7.59h113.35c13.59,0,26.14-1.87,37.61-5.62,11.5-3.74,21.15-9.02,29-15.8,4.86-4.35,9.21-9.36,13.06-15.03,3.82-5.66,7.1-11.69,9.8-18.14,2.7-6.44,4.79-13.15,6.25-20.13,1.48-6.95,2.24-14,2.24-21.15,0-10.43-1.58-20.45-4.72-30.03-3.14-9.58-7.56-17.94-13.3-25.07-3.21-4.11-6.88-7.73-10.99-10.82,1.97-.34,4.04-.83,6.15-1.43,3.31-.97,6.88-2.19,10.7-3.67Zm-111.38,147.02c-2.97.53-5.62,1-7.97,1.43-2.36.44-4.57.8-6.66,1.05-2.09.27-4.13.53-6.13.8-2.02.24-4.23.46-6.66.63l-36.3,2.36v-149.23h62.73c.66,4.57,1,7.85,1,9.77v133.18Zm5.35-159.54c-2.09.24-4.06.51-5.88.78-1.82.24-3.79.44-5.86.51-2.09.1-4.62.22-7.59.39l-38.39,2.09v-71.28h25.84c2.46,0,4.79.02,7.05.12,2.26.1,4.72.27,7.32.53,2.63.24,5.45.61,8.49,1.02,2.94.41,6.37.88,10.33,1.39.49,6.64,1.65,13.35,3.53,20.18,2.5,9.21,6.03,17.75,10.58,25.58,5.18,9.14,11.69,16.75,19.57,22.78l-27.42.97v-5.98c-2.94.34-5.47.66-7.56.92Zm93.51,64.87c1.29,6.37,1.94,14.25,1.94,23.63,0,6.1-.34,12.03-1.05,17.77-.68,5.74-1.65,11.14-2.87,16.19-1.22,5.06-2.7,9.63-4.45,13.71-1.73,4.08-3.65,7.44-5.74,10.04-4.01,5.06-9.97,8.92-17.89,11.62-7.93,2.7-17.19,4.06-27.81,4.06-1.92,0-4.4-.05-7.44-.12-3.04-.1-6.73-.22-11.09-.41v-141.01c4.69-.71,8.66-1.19,11.86-1.43,3.23-.27,5.88-.39,7.97-.39,10.79,0,20.45,2.43,28.98,7.29,8.53,4.89,15.34,11.77,20.37,20.64,3.48,5.91,5.88,12.06,7.2,18.4Z");
-			attr(path4, "class", "cls-1");
-			attr(path4, "d", "m704.12,193.55c-1.9-.36-3.74-.66-5.47-.92-1.75-.27-3.57-.56-5.49-.9-4.35-.88-7.39-1.31-9.14-1.31h-22.71v142.59c0,1.22.12,2.8.39,4.69.24,1.92.56,4.18.9,6.81l.8,5.23h-24.56c.68-4.55,1.12-7.85,1.29-9.94.19-2.09.27-3.99.27-5.74v-143.64h-19.84c-3.14,0-6.37.22-9.68.66s-8.1,1.26-14.34,2.48l2.33-18.28c5.93.68,10.72,1.22,14.37,1.56,3.65.36,6.76.61,9.26.8,2.53.17,4.67.29,6.42.39,1.73.07,3.55.12,5.47.12h45.98c3.99,0,7.32-.22,9.92-.66,2.6-.44,6.1-1.34,10.45-2.75l3.38,18.82Z");
-			attr(path5, "class", "cls-1");
-			attr(path5, "d", "m263.28,0v151.54h164.52V0h-164.52Zm155.04,142.06h-145.58V9.46h145.58v132.6Z");
-			attr(path6, "class", "cls-1");
-			attr(path6, "d", "m408.74,95.96c-.56-1.17-3.04-4.98-6.03-9.31-5.28-7.68-12.16-17.02-12.84-16.48l-9.7,7.97c-.17.15-.22.39-.1.58,3.01,5.08,7.68,8.95,11.67,13.3,3.84,4.23,7.25,9.48,7.22,15.12-16.41,0-52.49-.02-78.82-.07.27-4.69.44-9.36.36-14.03-.05-3.65-.1-7.27-.15-10.89,2.41-1.53,4.77-3.14,7.1-4.79,12.4-8.9,29.59-19.52,35.79-34.09,2.72-6.37,2.02-12.93-.71-19.47,2.63.1,5.23.39,7.71,1.19,3.79,1.26,6.49,18.87,7.73,26.62.17,1,1.02,1.73,2.04,1.73h10.89c1.14,0,2.07-.92,2.07-2.07-.07-9.75-2.6-31-7.78-34.09-5.4-3.23-12.01-3.4-18.28-3.5-5.96-.1-11.91-.19-17.87-.29-6.18-.88-12.5-.22-18.77-.56-12.86-.71-25.77.1-38.61-1.19-2.55,0-5.11-.05-7.63.02-1.46.02-3.48-.63-3.6,1.77-.32,5.93-.49,11.86-.68,17.82-.32,8.68-.8,17.36-.88,26.06-.15,24.41-.07,48.84-.29,73.28-.02,1.97,0,4.06,1.07,5.71,1.41,2.14,8.66,4.89,10.09,1.82.36-.75.36-1.63.36-2.46-.02-6.13-.02-12.23,0-18.36h16.24c.56,0,1.07.02,1.6.1,0,5.11-.02,10.24-.07,15.34-.05,4.94,1.75,7.15,6.71,7.15,22.66-.1,45.32,0,67.98-.17,2.67-.02,5.3-1.36,8-1.73,2.12-.29,3.5-3.26,5.52-3.87,0-.02.02-.02.02-.02,4.06-3.7,8.34-7.39,11.6-11.38.05-.05.1-.12.1-.22.07-.41.27-.8.58-1.14,6.61-6.88,4.01-17.77.34-25.43Zm-87.57-66.88c.05-1.19.15-2.5.95-3.43.97-1.14,2.67-1.24,4.18-1.26,4.91-.1,9.85-.19,14.76-.29,6.01,2.07,10.5,6.95,9.51,14.9-.73,5.81-5.66,9.17-9.97,12.55-5.64,4.47-11.31,8.95-17.21,13.08-1,.71-2.02,1.41-3.04,2.09.02-12.55.27-25.07.83-37.64Zm-30.32,20.47c.22-7.42,1.26-14.81,1.05-22.17-.15-4.59,2.43-3.7,4.91-3.77,4.18-.1,8.34-.22,12.5-.34-.1,2.99-.19,5.96-.29,8.92-.32,8.68-.8,17.36-.88,26.06-.02,5.49-.05,10.99-.07,16.48-1.43.92-2.87,1.87-4.28,2.82-3.38,2.31-6.59,4.81-10.53,6.13-1.68.56-2.38-.61-2.43-1.9-.12-3.65-.05-7.32-.05-10.97h.05c0-7.1-.17-14.2.02-21.27Zm.02,57.48h-.66c.07-1.68.29-3.36,1-4.89,2.43-5.25,11.06-8.61,15.78-11.57.34-.22.71-.44,1.05-.66,0,5.71-.02,11.43-.02,17.16-8.12,0-14.32-.02-17.14-.05Zm102.21,12.47c-3.67,3.6-8.58,7.22-13.69,8.22-4.77.92-9.63.36-14.44.36-13.66,0-27.28-.05-40.94-.19-1.24-.02-2.55-.07-3.5-.83-1.39-1.12-1.41-3.16-1.31-4.91.07-1.41.17-2.84.24-4.25,21.83.17,56.5.32,74.64.56-.32.36-.66.71-1,1.05Z");
-			attr(g3, "id", "Layer_1-2");
-			attr(g3, "data-name", "Layer 1");
-			attr(svg, "id", "Layer_2");
-			attr(svg, "data-name", "Layer 2");
-			attr(svg, "xmlns", "http://www.w3.org/2000/svg");
-			attr(svg, "viewBox", "0 0 704.12 514.65");
-			attr(svg, "class", "svelte-2d541j");
-			attr(div0, "class", "section-container");
-			attr(div1, "class", "component");
-			attr(div2, "class", "section");
-			attr(div2, "id", "section-654d3aa6-4627-44f2-9969-f984ebcdf2ea");
-		},
-		m(target, anchor) {
-			insert_hydration(target, div2, anchor);
-			append_hydration(div2, div1);
-			append_hydration(div1, div0);
-			append_hydration(div0, svg);
-			append_hydration(svg, defs);
-			append_hydration(defs, style);
-			append_hydration(style, t);
-			append_hydration(svg, g3);
-			append_hydration(g3, g2);
-			append_hydration(g2, g0);
-			append_hydration(g0, path0);
-			append_hydration(g0, path1);
-			append_hydration(g0, path2);
-			append_hydration(g0, path3);
-			append_hydration(g0, path4);
-			append_hydration(g2, g1);
-			append_hydration(g1, path5);
-			append_hydration(g1, path6);
-		},
-		p: noop,
-		i: noop,
-		o: noop,
-		d(detaching) {
-			if (detaching) detach(div2);
-		}
-	};
-}
-
-function instance$2($$self, $$props, $$invalidate) {
-	let { image } = $$props;
-
-	$$self.$$set = $$props => {
-		if ('image' in $$props) $$invalidate(0, image = $$props.image);
-	};
-
-	return [image];
-}
-
-class Component$4 extends SvelteComponent {
-	constructor(options) {
-		super();
-		init(this, options, instance$2, create_fragment$4, safe_not_equal, { image: 0 });
-	}
-}
-
-/* generated by Svelte v3.58.0 */
-
 function get_each_context$1(ctx, list, i) {
 	const child_ctx = ctx.slice();
 	child_ctx[3] = list[i].link;
@@ -3813,7 +3640,7 @@ function create_if_block$2(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "link svelte-1c4s81o");
+			attr(a, "class", "link svelte-1pib7xd");
 			attr(a, "href", a_href_value = "mailto:" + /*email*/ ctx[1]);
 		},
 		m(target, anchor) {
@@ -3872,8 +3699,8 @@ function create_each_block$1(ctx) {
 		h() {
 			attr(a, "href", a_href_value = /*link*/ ctx[3].url);
 			attr(a, "aria-label", a_aria_label_value = /*link*/ ctx[3].label);
-			attr(a, "class", "svelte-1c4s81o");
-			attr(li, "class", "svelte-1c4s81o");
+			attr(a, "class", "svelte-1pib7xd");
+			attr(li, "class", "svelte-1pib7xd");
 		},
 		m(target, anchor) {
 			insert_hydration(target, li, anchor);
@@ -3911,7 +3738,7 @@ function create_each_block$1(ctx) {
 	};
 }
 
-function create_fragment$5(ctx) {
+function create_fragment$4(ctx) {
 	let div2;
 	let div1;
 	let section;
@@ -3984,10 +3811,10 @@ function create_fragment$5(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h2, "class", "heading svelte-1c4s81o");
-			attr(ul, "class", "svelte-1c4s81o");
-			attr(div0, "class", "card svelte-1c4s81o");
-			attr(section, "class", "section-container svelte-1c4s81o");
+			attr(h2, "class", "heading svelte-1pib7xd");
+			attr(ul, "class", "svelte-1pib7xd");
+			attr(div0, "class", "card svelte-1pib7xd");
+			attr(section, "class", "section-container svelte-1pib7xd");
 			attr(div1, "class", "component");
 			attr(div2, "class", "section");
 			attr(div2, "id", "section-4be26452-0b45-4d43-8d23-4b0bb1cac070");
@@ -4081,7 +3908,7 @@ function create_fragment$5(ctx) {
 	};
 }
 
-function instance$3($$self, $$props, $$invalidate) {
+function instance$2($$self, $$props, $$invalidate) {
 	let { heading } = $$props;
 	let { email } = $$props;
 	let { social } = $$props;
@@ -4095,16 +3922,16 @@ function instance$3($$self, $$props, $$invalidate) {
 	return [heading, email, social];
 }
 
-class Component$5 extends SvelteComponent {
+class Component$4 extends SvelteComponent {
 	constructor(options) {
 		super();
-		init(this, options, instance$3, create_fragment$5, safe_not_equal, { heading: 0, email: 1, social: 2 });
+		init(this, options, instance$2, create_fragment$4, safe_not_equal, { heading: 0, email: 1, social: 2 });
 	}
 }
 
 /* generated by Svelte v3.58.0 */
 
-class Component$6 extends SvelteComponent {
+class Component$5 extends SvelteComponent {
 	constructor(options) {
 		super();
 		init(this, options, null, null, safe_not_equal, {});
@@ -4113,7 +3940,7 @@ class Component$6 extends SvelteComponent {
 
 /* generated by Svelte v3.58.0 */
 
-function create_fragment$6(ctx) {
+function create_fragment$5(ctx) {
 	let component_0;
 	let t0;
 	let component_1;
@@ -4123,8 +3950,6 @@ function create_fragment$6(ctx) {
 	let component_3;
 	let t3;
 	let component_4;
-	let t4;
-	let component_5;
 	let current;
 	component_0 = new Component({});
 
@@ -4155,17 +3980,6 @@ function create_fragment$6(ctx) {
 
 	component_3 = new Component$4({
 			props: {
-				image: {
-					"alt": "",
-					"src": "https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/images/1-LOCKUP.svg?t=2023-05-23T04%3A11%3A35.897Z",
-					"url": "https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/images/1-LOCKUP.svg?t=2023-05-23T04%3A11%3A35.897Z",
-					"size": null
-				}
-			}
-		});
-
-	component_4 = new Component$5({
-			props: {
 				heading: "",
 				email: "",
 				social: [
@@ -4180,7 +3994,7 @@ function create_fragment$6(ctx) {
 			}
 		});
 
-	component_5 = new Component$6({});
+	component_4 = new Component$5({});
 
 	return {
 		c() {
@@ -4193,8 +4007,6 @@ function create_fragment$6(ctx) {
 			create_component(component_3.$$.fragment);
 			t3 = space();
 			create_component(component_4.$$.fragment);
-			t4 = space();
-			create_component(component_5.$$.fragment);
 		},
 		l(nodes) {
 			claim_component(component_0.$$.fragment, nodes);
@@ -4206,8 +4018,6 @@ function create_fragment$6(ctx) {
 			claim_component(component_3.$$.fragment, nodes);
 			t3 = claim_space(nodes);
 			claim_component(component_4.$$.fragment, nodes);
-			t4 = claim_space(nodes);
-			claim_component(component_5.$$.fragment, nodes);
 		},
 		m(target, anchor) {
 			mount_component(component_0, target, anchor);
@@ -4219,8 +4029,6 @@ function create_fragment$6(ctx) {
 			mount_component(component_3, target, anchor);
 			insert_hydration(target, t3, anchor);
 			mount_component(component_4, target, anchor);
-			insert_hydration(target, t4, anchor);
-			mount_component(component_5, target, anchor);
 			current = true;
 		},
 		p: noop,
@@ -4231,7 +4039,6 @@ function create_fragment$6(ctx) {
 			transition_in(component_2.$$.fragment, local);
 			transition_in(component_3.$$.fragment, local);
 			transition_in(component_4.$$.fragment, local);
-			transition_in(component_5.$$.fragment, local);
 			current = true;
 		},
 		o(local) {
@@ -4240,7 +4047,6 @@ function create_fragment$6(ctx) {
 			transition_out(component_2.$$.fragment, local);
 			transition_out(component_3.$$.fragment, local);
 			transition_out(component_4.$$.fragment, local);
-			transition_out(component_5.$$.fragment, local);
 			current = false;
 		},
 		d(detaching) {
@@ -4253,17 +4059,15 @@ function create_fragment$6(ctx) {
 			destroy_component(component_3, detaching);
 			if (detaching) detach(t3);
 			destroy_component(component_4, detaching);
-			if (detaching) detach(t4);
-			destroy_component(component_5, detaching);
 		}
 	};
 }
 
-class Component$7 extends SvelteComponent {
+class Component$6 extends SvelteComponent {
 	constructor(options) {
 		super();
-		init(this, options, null, create_fragment$6, safe_not_equal, {});
+		init(this, options, null, create_fragment$5, safe_not_equal, {});
 	}
 }
 
-export default Component$7;
+export default Component$6;
