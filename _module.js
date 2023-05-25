@@ -3581,7 +3581,7 @@ function create_fragment$3(ctx) {
 			this.h();
 		},
 		h() {
-			if (!src_url_equal(img.src, img_src_value = "https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/images/5colorthreshglow-2.gif?t=2023-05-25T06%3A16%3A09.787Z")) attr(img, "src", img_src_value);
+			if (!src_url_equal(img.src, img_src_value = "https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/images/8color-dither_anim.gif?t=2023-05-25T06%3A28%3A10.657Z")) attr(img, "src", img_src_value);
 			attr(img, "alt", "PG Logo");
 			attr(img, "width", "100%");
 			attr(img, "class", "svelte-zl6lzi");
