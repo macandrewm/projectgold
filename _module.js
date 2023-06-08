@@ -3581,7 +3581,7 @@ function create_fragment$3(ctx) {
 			this.h();
 		},
 		h() {
-			if (!src_url_equal(img.src, img_src_value = "https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/images/8color-dither_anim-min.gif?t=2023-05-25T08%3A43%3A16.620Z")) attr(img, "src", img_src_value);
+			if (!src_url_equal(img.src, img_src_value = "https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/images/pg_minimal-min.gif")) attr(img, "src", img_src_value);
 			attr(img, "alt", "Project Gold");
 			attr(img, "width", "100%");
 			attr(img, "class", "svelte-zl6lzi");
