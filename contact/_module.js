@@ -3650,9 +3650,7 @@ function create_fragment$4(ctx) {
 					"title": ""
 				},
 				site_nav: [
-					{
-						"link": { "url": "/project-gold", "label": "Home" }
-					},
+					{ "link": { "url": "/", "label": "Home" } },
 					{
 						"link": { "url": "/about", "label": "About" }
 					},
