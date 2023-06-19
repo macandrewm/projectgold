@@ -3576,7 +3576,7 @@ function create_fragment$3(ctx) {
 			this.h();
 		},
 		h() {
-			attr(div0, "class", "section-container content svelte-1pq6bqh");
+			attr(div0, "class", "section-container content svelte-1oawp55");
 			attr(div1, "class", "section");
 			attr(div2, "class", "component");
 			attr(div3, "class", "section");
