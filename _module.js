@@ -997,25 +997,33 @@ class SvelteComponent {
 
 function create_fragment(ctx) {
 	let meta;
+	let script;
+	let t0;
 	let link;
 	let style;
-	let t;
+	let t1;
 
 	return {
 		c() {
 			meta = element("meta");
+			script = element("script");
+			t0 = text("(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-PCFCGW3');");
 			link = element("link");
 			style = element("style");
-			t = text("@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#e4c88c;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: #e4c88c;\n     transform: scale(1.1)\n  }\n\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #e4c88c;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
+			t1 = text("@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#e4c88c;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: #e4c88c;\n     transform: scale(1.1)\n  }\n\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #e4c88c;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
 			this.h();
 		},
 		l(nodes) {
-			const head_nodes = head_selector('svelte-1ema30p', document.head);
+			const head_nodes = head_selector('svelte-1jfdbsx', document.head);
 			meta = claim_element(head_nodes, "META", { name: true, content: true });
+			script = claim_element(head_nodes, "SCRIPT", {});
+			var script_nodes = children(script);
+			t0 = claim_text(script_nodes, "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-PCFCGW3');");
+			script_nodes.forEach(detach);
 			link = claim_element(head_nodes, "LINK", { rel: true, type: true, href: true });
 			style = claim_element(head_nodes, "STYLE", {});
 			var style_nodes = children(style);
-			t = claim_text(style_nodes, "@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#e4c88c;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: #e4c88c;\n     transform: scale(1.1)\n  }\n\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #e4c88c;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
+			t1 = claim_text(style_nodes, "@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#e4c88c;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: #e4c88c;\n     transform: scale(1.1)\n  }\n\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #e4c88c;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
 			style_nodes.forEach(detach);
 			head_nodes.forEach(detach);
 			this.h();
@@ -1029,15 +1037,18 @@ function create_fragment(ctx) {
 		},
 		m(target, anchor) {
 			append_hydration(document.head, meta);
+			append_hydration(document.head, script);
+			append_hydration(script, t0);
 			append_hydration(document.head, link);
 			append_hydration(document.head, style);
-			append_hydration(style, t);
+			append_hydration(style, t1);
 		},
 		p: noop,
 		i: noop,
 		o: noop,
 		d(detaching) {
 			detach(meta);
+			detach(script);
 			detach(link);
 			detach(style);
 		}
@@ -3722,9 +3733,7 @@ function create_fragment$4(ctx) {
 					"title": ""
 				},
 				site_nav: [
-					{
-						"link": { "url": "/project-gold", "label": "Home" }
-					},
+					{ "link": { "url": "/", "label": "Home" } },
 					{
 						"link": { "url": "/about", "label": "About" }
 					},
