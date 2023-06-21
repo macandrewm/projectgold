@@ -997,19 +997,22 @@ class SvelteComponent {
 
 function create_fragment(ctx) {
 	let meta;
+	let link;
 	let style;
 	let t;
 
 	return {
 		c() {
 			meta = element("meta");
+			link = element("link");
 			style = element("style");
 			t = text("@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#e4c88c;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: #e4c88c;\n     transform: scale(1.1)\n  }\n\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #e4c88c;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
 			this.h();
 		},
 		l(nodes) {
-			const head_nodes = head_selector('svelte-sku8t9', document.head);
+			const head_nodes = head_selector('svelte-8e9x6x', document.head);
 			meta = claim_element(head_nodes, "META", { name: true, content: true });
+			link = claim_element(head_nodes, "LINK", { rel: true, type: true, href: true });
 			style = claim_element(head_nodes, "STYLE", {});
 			var style_nodes = children(style);
 			t = claim_text(style_nodes, "@import url(\"https://unpkg.com/@primo-app/primo@1.3.64/reset.css\");\n  a{\n    color:#e4c88c;\n    transition:all 0.4s linear;\n  }\n  a:hover {\n    color: #e4c88c;\n     transform: scale(1.1)\n  }\n\n#page {\n  font-family: FragmentMono, sans-serif;\n  color: #e4c88c;\n  line-height: 1.6; \n  font-size: 1rem;\n  background: #1e1e1e;\n}\n\n.section-container {\n  max-width: var(--max-width, 1000px);\n  margin: 0 auto;\n  padding: 3rem var(--padding, 1rem); \n}\n\n.heading {\n  font-size: 3rem;\n  line-height: 1;\n  font-weight: 700;\n  margin: 0;\n}\n\n.button {\n  color: white;\n  background: var(--color-accent);\n  border-radius: 5px;\n  padding: 8px 20px;\n  transition: var(--transition);\n}\n\n.button:hover {\n    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);\n  }\n\n.button.inverted {\n    background: transparent; \n    color: var(--color-accent); \n    border: 2px solid var(--color-accent);\n  }\n\n.button .body {\n    filter: invert(90%)\n  }\n@font-face {\n  font-family:FragmentMono;\n  src: url(https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/fonts/FragmentMono-Regular.ttf?t=2023-05-23T04%3A20%3A03.821Z)\n}");
@@ -1020,9 +1023,13 @@ function create_fragment(ctx) {
 		h() {
 			attr(meta, "name", "viewport");
 			attr(meta, "content", "width=device-width, initial-scale=1.0");
+			attr(link, "rel", "icon");
+			attr(link, "type", "image/x-icon");
+			attr(link, "href", "https://edqjpryjjnqukkwhzcjp.supabase.co/storage/v1/object/public/images/pgfavicon.svg?t=2023-06-21T19%3A44%3A36.671Z");
 		},
 		m(target, anchor) {
 			append_hydration(document.head, meta);
+			append_hydration(document.head, link);
 			append_hydration(document.head, style);
 			append_hydration(style, t);
 		},
@@ -1031,6 +1038,7 @@ function create_fragment(ctx) {
 		o: noop,
 		d(detaching) {
 			detach(meta);
+			detach(link);
 			detach(style);
 		}
 	};
@@ -3719,7 +3727,9 @@ function create_fragment$4(ctx) {
 					"title": ""
 				},
 				site_nav: [
-					{ "link": { "url": "/", "label": "Home" } },
+					{
+						"link": { "url": "/project-gold", "label": "Home" }
+					},
 					{
 						"link": { "url": "/about", "label": "About" }
 					},
